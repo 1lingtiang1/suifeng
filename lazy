@@ -1,0 +1,172 @@
+var lazy1 = $("").lazyRule((MY_HOME) => { try {
+    let purl = JSON.parse(request(input).match(/var player_.*?=(.*?)</)[1]);
+    let url = purl.url;
+    let fro = purl.from;
+    if (purl.encrypt == '1') {
+        var url = unescape(url);
+        } else 
+    if (purl.encrypt == '2') {
+        var url = unescape(base64Decode(url));
+        };
+    if (/\.mp4|\.m3u8|\.flv/.test(url)) {
+        return url
+        } else 
+if (/dqsj\.cc55/.test(input)) {
+        return JSON.parse(request('https://dm.dqsj.cc/API.php', {
+        body: 'url=' + url,
+        method: 'POST'
+        } ) ).url + '#isVideo=true#'
+        } else { 
+        showLoading("解析规则中，请稍候");   
+        return 'x5Rule://' + input + '@' + $.toString((dcy) => {
+     //fba.log(dcy)
+        var durl = dcy
+        var urls = _getUrls()
+    if (window.c == null) {
+    if (typeof (request) == 'undefined' || !request) {
+        eval(fba.getInternalJs());
+        };
+        window.c = 0;
+        };
+        window.c++;
+    if (window.c * 250 >= 10 * 1000) {
+        fba.log("嗅探超时>超过10秒未获取到");
+        fba.hideLoading();
+ try{
+        let videourl = input.split('url=')[1];
+    if (/^http/.test(videourl)){
+        return videourl;
+        }
+        }catch(e){ }
+     //return "toast://解析超时，建议切换线路";
+        return fba.parseLazyRule($$$("#noLoading#").lazyRule((durl) => { 
+        let url = durl
+    if (/xfy|xinluan|RongXingVR|xueren|wuduyun|renrenmi|LT-|1905|fun|le|pptv|mgtv|ixigua|sohu|miguvideo|bilibili|youku|qq|iqiyi/.test(url)) {
+        showLoading("解析超时，已启用断插") 
+        let input = url;
+        eval("var config =" + fetch("hiker://files/cache/MyParseSet.json"));
+        eval(fetch(config.cj));
+        return aytmParse(url)
+        } else {
+        hideLoading();
+        return "toast://解析失败，建议切换线路";
+        }
+        },durl))
+        }
+     //fba.log(fba.getUrls())
+        var exclude = /http\:\/\/http|playm3u8|m3u8\.tv|m3u8\.pw|\?url\=\/m3u8|min\.css|404\.m3u8|\.ruifenglb|\/余额不足\.m3u8|\/xiajia\.mp4|imgs|\.css|\.js\?/;
+        var contain = /\.mp4?|\.mp4|\.m3u8|\.flv|\.avi|\.mpeg|\.wmv|\.mov|\.rmvb|\.dat|\.top|qqBFdownload|mime\=video%2F|video_mp4|\/video\/tos\/|pt\=m3u8|type\=m3u8/;
+ for (var i in urls) {
+     //fba.log("全部" + urls[i]);
+    if (!exclude.test(urls[i]) && contain.test(urls[i])) {
+    if (fy_bridge_app.getHeaderUrl)
+        return fba.parseLazyRule($$$("#noLoading#").lazyRule((url,durl) => { 
+        var burl = base64Decode(url)
+        var play = (/=http|,http/.test(burl)) ? 'http' + burl.split(/=http|,http/)[1].replace(/\,.*;{/,";{") : burl
+        var urll = play.replace(';{','#ignoreImg=true##isVideo=true#;{')
+        var m3u8 = cacheM3u8(play.split(";{")[0], {timeout: 2000} ) + "#ignoreImg=true##isVideo=true#;{" + play.split(";{")[1] 
+    if (/\.m3u8/.test(urll)) {
+        var urlcode = JSON.parse(fetch(urll,{withStatusCode:true,timeout:2000}));
+    if (urlcode.statusCode!=200) {
+        log('>播放地址失效或网络无法访问，开始调用断插>');
+        var url = durl
+        } else {
+        return (/global/.test(play)) ? urll : (/key|st=|path=|datas|encrypt=/.test(play)) ? m3u8 : urll 
+        }
+        } else 
+    if (/\.mp4/.test(urll)) {
+        var urlheader = JSON.parse(fetch(urll,{onlyHeaders:true,timeout:2000}));
+    if (urlheader.statusCode!=200) {
+        log('>播放地址失效或网络无法访问，开始调用断插');
+        var url = durl
+        } else { 
+        return urll  
+        }
+        } 
+    if (/xfy|xinlian|RongXingVR|xueren|wuduyun|renrenmi|LT-|1905|fun|le|pptv|mgtv|ixigua|sohu|miguvideo|bilibili|youku|qq|iqiyi/.test(url)) {
+        showLoading("播放链接失效，已启用断插")
+        let input = url;
+        eval("var config =" + fetch("hiker://files/cache/MyParseSet.json"));
+        eval(fetch(config.cj));
+        return aytmParse(url)
+        } else {
+        hideLoading();
+        return "toast://解析失败，建议切换线路";
+        }
+        },fy_bridge_app.base64Encode(fy_bridge_app.getHeaderUrl(urls[i])),durl)            )
+        }
+        }
+        },url)
+        } 
+        } catch(e) { 
+       requireCache("https://code.aliyun.com/lzk23559/PublicRule/raw/master/x5rule.js", 24);
+        return x5rule(input, input); };
+        } ,MY_HOME);
+
+
+var lazy2 = $('#noLoading#').lazyRule(() => {
+showLoading("\u89E3\u6790\u89C4\u5219\u4E2D\uFF0C\u8BF7\u7A0D\u5019");   
+     return 'x5Rule://' + input + '@' + $.toString(() => {
+     if (window.c == null) {
+     if (typeof (request) == 'undefined' || !request) {
+         eval(fba.getInternalJs());
+         };
+         window.c = 0;
+         };
+         window.c++;
+     if (window.c * 250 >= 15 * 10000) {
+         fba.log("嗅探超时>超过15秒未获取到");
+         fba.hideLoading();
+     try{
+         let videourl = input.split('url=')[1];
+     if(/^http/.test(videourl)){
+         return videourl;
+         }
+         }catch(e){ }
+         return "toast://解析超时，建议切换线路";
+           }
+       //fba.log(fba.getUrls())
+     var urls = _getUrls()
+     var exclude = /http\:\/\/http|playm3u8|m3u8\.tv|m3u8\.pw|\?url\=\/m3u8|min\.css|404\.m3u8|\.ruifenglb|\/余额不足\.m3u8|\/xiajia\.mp4|imgs|\.css|\.js\?/;
+     var contain = /\.mp4?|\.mp4|\.m3u8|\.flv|\.avi|\.mpeg|\.wmv|\.mov|\.rmvb|\.dat|\.top|qqBFdownload|mime\=video%2F|video_mp4|\/video\/tos\/|pt\=m3u8|type\=m3u8/;
+     for (var i in urls) {
+    //fba.log("全部" + urls[i]);
+     if (!exclude.test(urls[i]) && contain.test(urls[i])) {
+     if (fy_bridge_app.getHeaderUrl)
+         return $$$("#noLoading#").lazyRule((url) => { 
+         url = base64Decode(url)
+         play = (/=http|,http/.test(url)) ? 'http' + url.split(/=http|,http/)[1].replace(/\,.*;{/,";{") : url
+         urll = play.replace(';{','#ignoreImg=true##isVideo=true#;{')
+         m3u8 = cacheM3u8(play.split(";{")[0], {timeout: 2000} ) + "#ignoreImg=true##isVideo=true#;{" + play.split(";{")[1]
+         return (/global/.test(url)) ? urll : (/key|st=|path=|datas|encrypt=/.test(url)) ? m3u8 : urll
+},fy_bridge_app.base64Encode(fy_bridge_app.getHeaderUrl(urls[i])))
+        }} 
+    }) 
+ });
+
+
+var lazy3 = $("").lazyRule(() => {
+    let purl = JSON.parse(request(input).match(/var player_.*?=(.*?)</)[1]);
+    let url = purl.url;
+    let fro = purl.from;
+    if (purl.encrypt == '1') {
+        var url = unescape(url);
+        } else 
+        if (purl.encrypt == '2') {
+        var url = unescape(base64Decode(url));
+        };
+        if (/xfy|xinluan|RongXingVR|xueren|wuduyun|renrenmi|LT-|1905|fun|le|pptv|mgtv|ixigua|sohu|miguvideo|bilibili|youku|qq|iqiyi/.test(url)) {
+        let input = url;
+        eval("var config =" + fetch("hiker://files/cache/MyParseSet.json"));
+        eval(fetch(config.cj));
+        return aytmParse(url)
+        } else {
+        return url
+        }
+    });
+
+var 香 = $("").lazyRule(() => {
+    let jiexurl = input;
+    requireCache("https://code.aliyun.com/lzk23559/PublicRule/raw/master/x5rule.js", 24);
+    return x5rule(input, input);
+    })
